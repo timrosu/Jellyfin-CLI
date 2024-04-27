@@ -7,7 +7,7 @@ from urwid import WidgetWrap
 from urwid.widget import FLOW
 from urwid.command_map import ACTIVATE
 from urwid.signals import connect_signal
-from urwid.split_repr import python3_repr
+from urwid.split_repr import split_repr
 from urwid.util import is_mouse_press
 
 class SelectableIconBg(Text):
